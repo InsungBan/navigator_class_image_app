@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'view/first_page.dart';
 import 'home.dart';
+import 'view/image1.dart';
 import 'view/third_image_page.dart';
 import 'view/third_page.dart';
 
