@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'home.dart';
+import 'view/third_image_page.dart';
+import 'view/third_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,10 +20,10 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         "/" :(context) => Home(),
-        "/1st" :(context) => FirstPage(),
-        "/image1" :(context) => FirstImagePage(),
-        "/2nd" :(context) => SecondPage(),
-        "/image2" :(context) => SecondImagePage(),
+        // "/1st" :(context) => FirstPage(),
+        // "/image1" :(context) => FirstImagePage(),
+        // "/2nd" :(context) => SecondPage(),
+        // "/image2" :(context) => SecondImagePage(),
         "/3th" :(context) => ThirdPage(),
         "/image3" :(context) => ThirdImagePage(),
       },
