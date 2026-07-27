@@ -14,6 +14,7 @@ class ThirdImagePage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
               "images/pikachu-3.jpg",
