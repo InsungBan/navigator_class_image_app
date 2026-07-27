@@ -15,6 +15,19 @@ class ThirdImagePage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
+            Image.asset(
+              "images/pikachu-3.jpg",
+              width: 100,
+              height: 100,
+              fit: BoxFit.contain,
+            ),
+            Text(
+              "피카츄 이미지입니다",
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold
+              ),
+            ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
