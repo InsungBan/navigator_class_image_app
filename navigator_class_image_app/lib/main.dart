@@ -4,6 +4,9 @@ import 'home.dart';
 import 'view/third_image_page.dart';
 import 'view/third_page.dart';
 
+import 'view/secondimagepage.dart';
+import 'view/secondpage.dart';
+
 void main() {
   runApp(const MyApp());
 }
