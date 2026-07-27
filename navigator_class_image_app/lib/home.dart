@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, "/2nd"),
-              child: Text("Second Page222"),
+              child: Text("Second Page"),
             ),
             ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, "/3rd"),
