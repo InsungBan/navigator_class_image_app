@@ -14,7 +14,7 @@ class ThirdPage extends StatelessWidget {
       ),
       body: Center(
         child: ElevatedButton(
-          onPressed: () => "/image3", 
+          onPressed: () => Navigator.pushNamed(context, "/image3"), 
           child: Text("Image Page")),
       ),
     );
