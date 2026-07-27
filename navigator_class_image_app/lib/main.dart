@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'view/first_page.dart';
-import 'view/home.dart';
+import 'home.dart';
 import 'view/image1.dart';
 
 void main() {
@@ -22,10 +22,10 @@ class MyApp extends StatelessWidget {
         "/" :(context) => Home(),
         "/1st" :(context) => FirstPage(),
         "/image1" :(context) => FirstImagePage(),
-        // "/2nd" :(context) => SecondPage(),
-        // "/image2" :(context) => SecondImagePage(),
-        // "/3th" :(context) => ThirdPage(),
-        // "/image3" :(context) => ThirdImagePage(),
+        "/2nd" :(context) => SecondPage(),
+        "/image2" :(context) => SecondImagePage(),
+        "/3th" :(context) => ThirdPage(),
+        "/image3" :(context) => ThirdImagePage(),
       },
       initialRoute: "/",
     );
